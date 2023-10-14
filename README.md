@@ -12,16 +12,10 @@
     <h2>Kullanım</h2>
     <ol>
         <li>Projeyi bu depodan klonlayın.</li>
-        <li>Gerekli bağımlılıkları yükleyin:</li>
-        <pre><code>npm install</code></pre>
-        <li>Projeyi başlatın:</li>
-        <pre><code>npm start</code></pre>
-        <li>Tarayıcınızda <a href="http://localhost:3000">http://localhost:3000</a> adresine giderek e-ticaret sitesini görüntüleyin.</li>
     </ol>
     <h2>Kullanılan Teknolojiler</h2>
     <ul>
         <li>HTML, CSS ve JavaScript</li>
-        <li>React.js</li>
     </ul>
     <h2>Özellikler</h2>
     <ul>
@@ -38,19 +32,7 @@
         <li>Değişikliklerinizi kendi klonladığınız projenize itin (push).</li>
         <li>Orjinal projeye pull request gönderin.</li>
     </ol>
-    <h2>Lisans</h2>
-    <p>Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.</p>
     <h2>Sepet İşlemleri</h2>
     <p>Sepete ekle ve sepetten çıkar işlevleri:</p>
-    <button onclick="addToBasket(1)">Sepete Ekle</button>
-    <button onclick="removeFromBasket(1)">Sepetten Çıkar</button>
-    <script>
-        function addToBasket(productId) {
-            // Sepete ekleme kodunu buraya ekleyin
-        }
-        function removeFromBasket(productId) {
-            // Sepetten çıkarma kodunu buraya ekleyin
-        }
-    </script>
 </body>
 </html>
